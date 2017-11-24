@@ -1,0 +1,23 @@
+{
+  "name": "mqtt-kafka-bridge",
+  "version": "1.0.0",
+  "description": "MQTT server that bridges into Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doLittle-Extensions/mqtt-kafka-bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^2.7.0",
+    "pino": "^4.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/doLittle-Extensions/mqtt-kafka-bridge/issues"
+  },
+  "homepage": "https://github.com/doLittle-Extensions/mqtt-kafka-bridge#readme"
+}
