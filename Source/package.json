@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "mosca": "^2.7.0",
-    "pino": "^4.10.2"
+    "pino": "^4.10.2",
+    "winston": "^3.0.0-rc1"
   },
   "bugs": {
     "url": "https://github.com/doLittle-Extensions/mqtt-kafka-bridge/issues"
