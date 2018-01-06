@@ -98,7 +98,7 @@ PinoToWinstonStream.prototype.write = function(chunk) {
     var translated = {
         message: logEntry.msg,
         level: level,
-        timestamp: new Date(logEntry.time)
+        "@timestamp": new Date(logEntry.time)
     };
     delete logEntry.pid;
     delete logEntry.hostname;
